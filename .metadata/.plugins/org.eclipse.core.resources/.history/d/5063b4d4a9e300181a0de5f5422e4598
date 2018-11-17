@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+ <%@ page import="java.util.Date" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulário Politicamente Correto</title>
+</head>
+<body>
+
+<form action="Formulario.jsp" method="post">
+ 	Nome: <input type="text" name="nome" />
+	<input type="submit" value="Enviar" /><br/>
+		
+</form>
+
+<% //scriplet
+String nome = request.getParameter("nome");
+if(nome!=null)
+out.print("Bem vindo, "+nome);
+%>	
+
+Hoje é dia: <%= //declaration     
+
+%>
+ e são <%= 
+ 
+%> 
+
+
+<form action="Dados.jsp">
+Escolha um País da América Latina favorita: 
+	<select name="pais">
+		<option>Argentina</option>
+		<option>Bolivia</option>
+		<option>Brasil</option>
+		<option>Chile</option>
+		<option>Paraguai</option>
+		<option>Uruguai</option>
+		<option>Venezuela</option>
+	</select>
+<br/><br/>	
+Sexo:	
+	<input type="radio" name="sexo" value="masculino"/> Masculino
+	<input type="radio" name="sexo" value="feminino"/> Feminino
+	<input type="radio" name="sexo" value="intersexo"/> Intersexo	
+<br/><br/>
+
+	
+	<input type="submit" value="Enviar"/>
+</form>
+
+</body>
+</html>

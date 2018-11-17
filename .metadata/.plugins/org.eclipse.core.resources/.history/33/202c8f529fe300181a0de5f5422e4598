@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css" >
+
+body{
+	margin: 1px;
+}
+
+#header{
+	heigth: 300px
+	width: 20%;
+	float: left;
+	background-color: grey;
+}
+
+#menu{
+	margin:1 px;
+}
+
+</style>
+</head>
+<body>
+
+<div id ="header"></div>
+<div id ="menu"></div>
+<div id ="content"></div>
+<div id ="footer"></div>
+
+
+</body>
+</html>

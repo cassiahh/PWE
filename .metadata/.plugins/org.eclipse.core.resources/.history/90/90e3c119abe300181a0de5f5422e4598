@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulário Politicamente Correto</title>
+</head>
+<body>
+
+<%
+	String pais = request.getParameter("pais");
+	out.print("O País escolhido foi: "+pais+"<br/><br/>");
+	
+	String sexo = request.getParameter("sexo");
+	out.print("O sexo auto-declarado foi: "+sexo+"<br/><br/>");
+	
+	String[] linguas = request.getParameterValues("linguas");
+	for(String lingua: linguas){
+		out.print("Voce fala: "+lingua+"<br/>");
+	}
+
+%>
+</body>
+</html>
