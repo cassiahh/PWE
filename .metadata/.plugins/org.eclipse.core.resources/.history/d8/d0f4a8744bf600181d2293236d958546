@@ -24,6 +24,11 @@ if(nome!=null){
 out.print("Bem vindo(a), "+nome+"!");
 }else{
 	out.print("Alice, é você?");
+	img alt="" src="img/AliceCooper.jpg";
+	
+	
+	out.print("Não, é o Ozzy");
+	img alt="" src="img/";
 }
 
 

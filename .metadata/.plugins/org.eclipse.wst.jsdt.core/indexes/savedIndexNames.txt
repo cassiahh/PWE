@@ -1,14 +1,7 @@
-INDEX VERSION 1.4+C:\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1672867202.index
-2857330344.index
-2712035138.index
-230229652.index
-2653385873.index
-4071737436.index
+INDEX VERSION 1.4+C:\Users\cassi\Documents\GitHub\pwe\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+804398742.index
+1755000681.index
 2131822481.index
-1798990425.index
-3063152446.index
-3731977901.index
-1033012986.index
 256185254.index
-1702784286.index
+778502537.index
+1739970286.index
