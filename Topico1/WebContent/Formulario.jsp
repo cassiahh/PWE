@@ -1,4 +1,5 @@
 
+
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <%@ page import="java.util.Date" %>
@@ -65,6 +66,20 @@ Selecione as línguas que você fala:
 	
 	<input type="submit" value="Enviar"/>
 </form>
+
+<%
+	String pais = request.getParameter("pais");
+	out.print("O País escolhido foi: "+pais+"<br/><br/>");
+	
+	String sexo = request.getParameter("sexo");
+	out.print("O sexo auto-declarado foi: "+sexo+"<br/><br/>");
+	
+	String[] linguas = request.getParameterValues("linguas");
+	for(String lingua: linguas){
+		out.print("Voce fala: "+lingua+"<br/>");
+	}
+
+%>
 
 </body>
 </html>
