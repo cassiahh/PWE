@@ -7,6 +7,9 @@
 		<item value="D:\GRU\workspace\ajax"/>
 		<item value="D:\eclipse-workspace"/>
 	</list>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item value="C:\eclipse-workspace\PWE" key="OUTSIDE_LOCATION"/>
+	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="false" key="FilterByLocation"/>
 		<item value="true" key="ShowStatusLine"/>

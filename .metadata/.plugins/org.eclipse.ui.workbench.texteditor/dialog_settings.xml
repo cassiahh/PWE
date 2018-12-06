@@ -6,12 +6,17 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="TestaConexao" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="email: &quot;.$email; ?&gt; "/>
+			<item value="search"/>
+			<item value="form-control "/>
+			<item value="form-control mr-sm-2"/>
+			<item value="spam"/>
 			<item value="ConexaoMySQL"/>
 			<item value="cidade"/>
 		</list>
@@ -24,7 +29,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="-231" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
 		<item value="184" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
