@@ -19,7 +19,7 @@ public class Dbconexao {
 								
 			}
 			
-			String url = "jdbc:mysql://localhost/dbnome";
+			String url = "jdbc:mysql://localhost:3306/dbnome";
 			String user = "root";
 			String password="";
 			
@@ -28,14 +28,19 @@ public class Dbconexao {
 			try {
 				con=DriverManager.getConnection(url, user, password);
 				
-				System.out.println("conectado com sucesso");
+				System.out.println("conectado com sucesso ao bd");
 			} catch (SQLException e) {
-				System.out.println("Algo deu errado na conexao com bd");
+				System.out.println("Algo deu errado no acesso ao bd");
 			}
 			
 			
 			
 					
 	}
-
 }
+
+
+//public Connection getConnection() {	return con;}
+
+
+//  com.mysql.jdbc.Driver              

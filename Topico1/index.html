@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
 
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -19,70 +21,15 @@
     <link href="css/mdb.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
+        
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <!-- Template styles -->
-    <style rel="stylesheet">
-        /* TEMPLATE STYLES */
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+      
 
-        main {
-            padding-top: 3rem;
-            padding-bottom: 2rem;
-        }
-
-        .widget-wrapper {
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #e0e0e0;
-            margin-bottom: 2rem;
-        }
-
-        .extra-margins {
-            margin-top: 1rem;
-            margin-bottom: 2.5rem;
-        }
-
-        .divider-new {
-            margin-top: 0;
-        }
-
-        .navbar {
-            background-color: #414a5c;
-        }
-
-        footer.page-footer {
-            background-color: #414a5c;
-            margin-top: 2rem;
-        }
-
-        .list-group-item.active {
-            background-color: #2bbbad;
-            border-color: #2bbbad
-        }
-
-        .list-group-item:not(.active) {
-            color: #222;
-        }
-
-        .list-group-item:not(.active):hover {
-            color: #666;
-        }
-        .card {
-            font-weight: 300;
-        }
-        .navbar .btn-group .dropdown-menu a:hover {
-            color: #000 !important;
-        }
-        .navbar .btn-group .dropdown-menu a:active {
-            color: #fff !important;
-        }
-        div.c-wrapper{
-    width: 100%; 
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-}
-
-    </style>
 </head>
+
 
 <body>
 
@@ -92,37 +39,24 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">IFSP</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item btn-group">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 
-                            </a>
-                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+                    
+<!-- *****************easter egg******************************************************************************************* -->   
+                 
+                    <form class="form-inline"  action="./WebContent/Dados.jsp" method="post">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="search" name="search">
+                        <button class="btn btn-default" type="submit" value="Enviar">Enviar</button>
                     </form>
+                    
+<!-- ************************************************************************************************************ -->                    
+                    
                 </div>
-            </div>
+       
         </nav>
         <!--/.Navbar-->
 
@@ -148,19 +82,25 @@
 
                         </div>
                     </div>
+                    
+                    
+<!-- ******************************************************************************** -->
+
 
                     <div class="widget-wrapper wow fadeIn" data-wow-delay="0.4s">
-                        <h4>Formulário para Cadastro:</h4>
+                        <br><h4>Formulário para Cadastro:</h4>
                         <br>
-                        <div class="card">
+                     <div class="card">
                             <div class="card-body">
-                                <p><strong>e para Spam</strong></p>
+                               
                                 <p></p>
-                                <form action="Dados.jsp" method="post">
+                                
+                                <form action="./WebContent/Dados.jsp" method="post">
+                                
                                 <div class="md-form">
                                     <i class="fa fa-user prefix"></i>
                                     <input type="text" id="nome" class="form-control">
-                                    <label for="form1">Nome Completo</label>
+                                    <label for="form1">Nome Completo</label> 
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-envelope prefix"></i>
@@ -174,11 +114,12 @@
                                 </div>
                                 <button class="btn btn-default">Enviar</button>
                             </form>
-                            </div>
-                        </div>
+                         </div>
+                       </div>
                     </div>
-
                 </div>
+                
+<!-- ************************************************************************************************************ -->
                 <!--/.Sidebar-->
 
                 <!--Main column-->
@@ -318,7 +259,7 @@
                                     <!--Text-->
                                     <p class="card-text">"Eu não sabia que era um morcego, até que eu mordi a cabeça. Oh meu Deus, o que eu fui fazer?"
                                 </p>
-                                    <a href="#" class="btn btn-default">Adquira <strong>Agora</strong></a>
+                                    <a href="#" class="btn btn-default">Adquira <strong>Já</strong></a>
                                 </div>
 
                             </div>
@@ -345,7 +286,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!--First column-->
-                <div class="col-lg-4 col-md-8 ml-auto">
+                <div class="col-lg-4 col-md-6 ml-auto">
                     <h5 class="title mb-3"><strong>Sobre o material do template utilizado</strong></h5>
                     <p>Material Design (codenamed Quantum Paper) is a design language developed by Google.</p>
                     <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS,
@@ -354,17 +295,28 @@
                 <!--/.First column-->
                 <hr class="w-100 clearfix d-sm-none">
                 <!--Second column-->
-                <div class="col-lg-4 col-md-8 ml-auto">
-                    <h5 class="title mb-3"><strong>Links</strong></h5>
+                <div class="col-lg-6 col-md-8 ml-auto">
+ 
+ <!-- ************************************************************************************************************ -->
+                    
+                    <h6 class="title mb-3"><strong>Inscreva-se para receber nosso Spam especial </strong></h6>
+                    
+                    <form class="form-inline" action="./WebContent/Dados.jsp" method="post" >
+                  
+                        <input class="form-control mr-sm-2" type="text" placeholder="Email" aria-label="spam" >
+                        
+                    </form>
+<!-- ************************************************************************************************************ -->
+                    
                     <ul>
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="./WebContent/JSP.jsp">JSP</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="destino.php">AJAX</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#">link3</a>
                         </li>
                        
                     </ul>
@@ -382,15 +334,15 @@
 
         <!--Call to action-->
         <div class="call-to-action">
-                <h4 class="mb-5">Cássia Chin  3004121</h4>
-           
+                <h7 class="mb-5">Cássia Chin     3004121</h7><br>
+           		<h7 class="mb-5">Talita Oliveira 1662627</h7>
         </div>
         <!--/.Call to action-->
 
         <!--"Copyright"-->
         <div class="footer-copyright">
             <div class="container-fluid">
-               P W E  2º semestre 2018</a>
+            <a>   P W E  2º semestre 2018</a>
 
             </div>
         </div>
